@@ -93,8 +93,18 @@ VALID_PHASES: Final[set[str]] = {"sense", "reason", "act", "observe"}
 # argue for it - that argument is the point, not the mark.
 # ─────────────────────────────────────────────────────────────────────────────
 ANNOTATIONS: dict[int, str] = {
-    1: "...", 2: "...", 3: "...", 4: "...", 5: "...", 6: "...",
-    7: "...", 8: "...", 9: "...", 10: "...", 11: "...", 12: "...",
+    1: "sense",
+    2: "reason",
+    3: "act",
+    4: "observe",
+    5: "reason",
+    6: "act",
+    7: "observe",
+    8: "reason",
+    9: "act",
+    10: "observe",
+    11: "reason",
+    12: "act",
 }
 
 _ANSWER_KEY_RAW: Final[dict[int, list[str]]] = {
